@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css" />  
+</head>
+<body>
+    <div class="Nav">
+        <ul>
+            <li><a>Deposit</a></li>
+            <li><a >Loan</a></li>
+            <li><a >Investment</a></li>
+            <li><a >Net Banking</a></li>
+          </ul>
+    </div> 
+
+    <div class="bankDashBoard">
+        <div class="row"> <div class="card1">
+                <h1  id="cb">Current Balance:$<span id="amount"></span></h1>
+            </div>
+            <div class="card2">
+                <h1 class="db"> Deposit Amount:</h1>
+                <input type="number" id="DepositIn" placeholder="Deposit Amount" min="0" />
+                <button id="Deposit-btn" onclick="deposit()">DEPOSIT</button>
+            </div>
+
+            <div class="card3">
+                <h1 class="wa"> Withdrawal Amount:</h1>
+                <input type="number" class="Withdrawal" id="WithdrawalIn" placeholder="Withdrawal Amount" min="0" />
+                <button class="btn-2" onclick="Withdrawalamount()">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <ul>
+                <li> TERMS AND CONDITIONS </li></ul></br>
+                <li>PRIVACY AND COOKIE POLICY</li></br>
+                <li>WHATSAPP BANKING</li></br></br>
+                <ul></br>
+                    <li>Contact Us:</li>
+                    <li>Phone:+91 8889999</li></br>
+                    <li>Instagram:OfficalBank</li>
+                </ul>
+               
+            </ul>  
+          
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

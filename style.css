@@ -1,0 +1,102 @@
+
+.footer{
+    display: flex;
+border-style:  solid ;
+height: 200px;
+color: aliceblue;
+height: 100px;
+background-color: #333 ;
+
+}
+
+
+
+
+.Nav{
+    /* display: flex;
+    border-style: solid; */
+    height: 100px;
+    background-color: #333 ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+#cb{
+    color: red;
+}
+.db{
+    color: blue;
+    min-width: 400px;
+}
+.wa{
+    color: green;
+    min-width: 400px;
+}
+
+.card1{
+display: flex;
+border-style:  solid ;
+height: 200px;
+;
+}
+.card2{
+    display: flex;
+    border-style: solid;
+    height: 100px;
+    }
+    .card3{
+        display: flex;
+        border-style: solid;
+        height: 100px;
+        }
+ #DepositIn{
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+
+    }   
+    .Withdrawal{
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+
+    } 
+   #Deposit-btn{
+        margin-left: 100px;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        min-height: 10px;
+
+    }
+    .btn-2{
+       margin-left: 100px;
+        width: 200px;
+        height: 50px;
+        margin-top: 20px;
+        
+    }
+
