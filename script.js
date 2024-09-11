@@ -13,7 +13,7 @@ function deposit() {
   console.log(DepositIn, "amount");
 
   if (DepositInp <= 0 || amount == 0) {
-    alert("No a Valid Number");
+    alert("Please! Enter  Positive Number Only");
   } else {
     amount = document.getElementById("amount").innerHTML = DepositIn;
     let DepositInp = (document.getElementById("DepositIn").value = "");
@@ -23,12 +23,12 @@ function deposit() {
 function Withdrawalamount() {
   let WithdrawalInp = document.getElementById("WithdrawalIn").value;
   console.log(WithdrawalInp, amount, "WithdrawalIn");
-  let WithdrawalIn = Number(WithdrawalInp) - amount;
+  let WithdrawalIn = amount - Number(WithdrawalInp);
 
   console.log(WithdrawalIn, "amount");
 
-  if (WithdrawalInp <= 0) {
-    alert("Not a valid Number");
+  if (WithdrawalInp <=0) {
+    alert("Please! Enter Positive Number only");
   }
   if (amount == 0) {
     alert("No change should occur to the balance");

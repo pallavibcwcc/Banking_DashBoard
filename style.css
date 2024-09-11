@@ -12,7 +12,7 @@
 .Header {
   /* display: flex;
     border-style: solid; */
-  height: 100px;
+  height: 50px;
   background-color: #333;
 }
 
@@ -42,11 +42,19 @@ li a:hover {
 
 #cb {
   color: red;
+  margin-left: 20px;
+ 
+
 }
 .db {
   color: blue;
   min-width: 400px;
+ 
 }
+.db ,.wa{
+    margin-left: 20px;
+}
+
 .wa {
   color: green;
   min-width: 400px;
@@ -72,6 +80,7 @@ li a:hover {
   height: 50px;
   margin-top: 20px;
   border-radius: 50px;
+  
 }
 .Withdrawal {
   width: 200px;
