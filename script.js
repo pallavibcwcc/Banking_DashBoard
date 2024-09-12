@@ -28,13 +28,15 @@ function Withdrawalamount() {
   console.log(WithdrawalIn, "amount");
 
   if (WithdrawalInp <=0) {
-    alert("Please! Enter Positive Number only");
+    alert(" Please Enter Positive Number only");
   }
-  if (amount == 0) {
-    alert("No change should occur to the balance");
-  } else {
+   if(WithdrawalInp>amount){
+    alert("Insufficient Balance!");
+    let WithdrawalInp = (document.getElementById("WithdrawalIn").value = "");
+  }
+  else {
     amount = document.getElementById("amount").innerHTML = WithdrawalIn;
 
     let WithdrawalInp = (document.getElementById("WithdrawalIn").value = "");
   }
-}
+ }
